@@ -1,5 +1,5 @@
 pipeline{
-agent { label 'docked' }
+agent { label 'masternode' }
 
 environment {
     DOCKER_IMAGE_NAME = 'apurwasingh/flask'
