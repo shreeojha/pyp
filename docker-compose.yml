@@ -1,0 +1,6 @@
+services:
+  flask:
+    image: apurwasingh/flask
+    container_name: flask
+    ports:
+      - "8000:7000"
