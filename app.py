@@ -6,5 +6,5 @@ def webout():
 
 @app.route('/greet')
 def greet():
-	return '<h1>New feature</h1>'
+	return '<h1>New feature is great</h1>'
 app.run(host='0.0.0.0',port=7000)
